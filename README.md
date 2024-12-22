@@ -6,7 +6,7 @@ An Ordinal Classifier is a type of machine learning model designed to hadle ordi
 
 순서 분류기는 순서 데이터를 처리하도록 설계된 일종의 기계 학습 모델입니다. 순서형 데이터는 의미 있는 순서가 있지만 범주 사이에 고정된 거리가 없는 범주를 나타냅니다. 예를 들면 교육 수준(예: '고등학교', '대학', '졸업'), 만족도 등급(예: '나쁨', '보통', '좋음', '우수') 또는 성적(예: 1등급)이 있습니다. , 2학년, 3학년).
 
-# PyPI
+## PyPI
 [https://pypi.org/psordinal/](https://pypi.org/project/psordinal/)
 
 ## Structure
@@ -114,7 +114,7 @@ pip install msordinal==0.2
 from msordinal import OrdinalClassifier
 ```
 
-# How to use
+## How to use
 
 - initial OrdinalClassifier
 ```python
