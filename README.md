@@ -141,7 +141,7 @@ ordinal_clf = OrdinalClassifier(
 )
 ```
 
-reverse_classes = False learns class relationships in natural order
+reverse_classes = False (default) learns class relationships in natural order
 Example) [Class 0 -> Class 1 -> Class 2 -> Class 3] 
 
 reverse_classes = True learns class relationships in reverse order
@@ -172,6 +172,11 @@ How to use predict
 ```python
 predict = ordinal_clf.predict(X_val, conditional)
 ```
+
+conditional = True (default) : Capture ordinal relationships between classes by explicitly modeling dependencies
+
+conditional = False : The model processes each class independently without considering dependencies
+
 How to use Feature Importance
 
 ```python
