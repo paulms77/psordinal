@@ -1,4 +1,4 @@
-# msordinal
+# Welcome to msordinal 👋
 
 msordinal is a Python library that integrates ordinal classification methodology papers.
 
