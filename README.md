@@ -116,7 +116,8 @@ from msordinal import OrdinalClassifier
 
 ## How to use
 
-- initial OrdinalClassifier
+initial OrdinalClassifier
+
 ```python
 ordinal_clf = OrdinalClassifier(
     clfs = [
@@ -140,22 +141,26 @@ ordinal_clf = OrdinalClassifier(
 
 Registration is possible with a single model class, but SoftVoting is applied when registering multiple model classes.
 
-- fit
+fit
+
 ```python
 ordinal_clf.fit(X_train, y_train, categorical_variables)
 ```
 
-- fit_eval
+fit_eval
+
 ```python
 ordinal_clf.fit_eval(X_train, y_train, X_val, y_val, early_stopping_round, categorical_variables)
 ```
 
-- predict_proba
+predict_proba
+
 ```python
 predict_proba = ordinal_clf.predict_proba(X_val, conditional)
 ```
 
-- predict
+predict
+
 ```python
 predict = ordinal_clf.predict(X_val, conditional)
 ```
