@@ -9,7 +9,6 @@ For more details on the ordinal classifier methodology, please refer to the pape
  - https://towardsdatascience.com/simple-trick-to-train-an-ordinal-regression-with-any-classifier-6911183d2a3c
  - https://link.springer.com/chapter/10.1007/3-540-44795-4_13
 
-
 An Ordinal Classifier is a type of machine learning model designed to hadle ordinal data. Ordinal data refers to categories with a meaningful order but without a fixed distance between them. Examples include education levels (e.g, 'High School', 'College', 'Graduate'), satisfaction ratings (e.g., 'Poor', 'Fair', 'Good', 'Excellent'), or grades (e.g., Grade 1, Grade 2, Grade 3).
 
 순서 분류기는 순서 데이터를 처리하도록 설계된 일종의 기계 학습 모델입니다. 순서형 데이터는 의미 있는 순서가 있지만 범주 사이에 고정된 거리가 없는 범주를 나타냅니다. 예를 들면 교육 수준(예: '고등학교', '대학', '졸업'), 만족도 등급(예: '나쁨', '보통', '좋음', '우수') 또는 성적(예: 1등급)이 있습니다. , 2학년, 3학년).
