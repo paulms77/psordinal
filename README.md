@@ -164,6 +164,17 @@ How to use predict
 ```python
 predict = ordinal_clf.predict(X_val, conditional)
 ```
+How to use Feature Importance
+
+```python
+feature_importance = model.get_feature_importances(feature_names)
+```
+
+How to use Shap Values
+
+```python
+shape = model.shap_values(X)
+```
 
 ## Collaborating
 
