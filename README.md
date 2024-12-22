@@ -2,9 +2,8 @@
 
 msordinal is a Python library that integrates ordinal classification methodology papers.
 
-https://towardsdatascience.com/simple-trick-to-train-an-ordinal-regression-with-any-classifier-6911183d2a3c
-
-https://link.springer.com/chapter/10.1007/3-540-44795-4_13
+ - https://towardsdatascience.com/simple-trick-to-train-an-ordinal-regression-with-any-classifier-6911183d2a3c
+ - https://link.springer.com/chapter/10.1007/3-540-44795-4_13
 
 An Ordinal Classifier is a type of machine learning model designed to hadle ordinal data. Ordinal data refers to categories with a meaningful order but without a fixed distance between them. Examples include education levels (e.g, 'High School', 'College', 'Graduate'), satisfaction ratings (e.g., 'Poor', 'Fair', 'Good', 'Excellent'), or grades (e.g., Grade 1, Grade 2, Grade 3).
 
