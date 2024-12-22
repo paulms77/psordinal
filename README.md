@@ -8,8 +8,6 @@ An Ordinal Classifier is a type of machine learning model designed to hadle ordi
 
 순서형 분류기 방법론에 대한 자세한 내용은 논문을 참고하세요.
 
-For more details on the ordinal classifier methodology, please refer to the paper.
-
  - https://towardsdatascience.com/simple-trick-to-train-an-ordinal-regression-with-any-classifier-6911183d2a3c
  - https://link.springer.com/chapter/10.1007/3-540-44795-4_13
 
