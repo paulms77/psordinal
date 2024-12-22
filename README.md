@@ -1,6 +1,6 @@
 # Welcome to psordinal 👋
 
-**P**aul77m**sOrdinal**Classifier
+## **P**aul77m**sOrdinal**Classifier
 
 psordinal is a Python library that integrates ordinal classification methodology papers.
 
