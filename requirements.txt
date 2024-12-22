@@ -1,0 +1,15 @@
+setuptools
+wheel
+twine
+scikit-learn
+matplotlib
+seaborn
+numpy
+scipy
+pandas
+catboost
+xgboost
+lightgbm
+shap
+tqdm
+colorama
