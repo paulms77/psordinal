@@ -11,7 +11,7 @@ An Ordinal Classifier is a type of machine learning model designed to hadle ordi
  - https://towardsdatascience.com/simple-trick-to-train-an-ordinal-regression-with-any-classifier-6911183d2a3c
  - https://link.springer.com/chapter/10.1007/3-540-44795-4_13
 
-## ![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7) PyPI
+## PyPI ![PyPi](https://img.shields.io/badge/pypi-%23ececec.svg?style=for-the-badge&logo=pypi&logoColor=1f73b7)
 [https://pypi.org/psordinal/](https://pypi.org/project/psordinal/)
 
 ## Structure
