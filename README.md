@@ -192,6 +192,31 @@ How to use Shap Values
 shape = model.shap_values(X)
 ```
 
+## Result
+순서를 무시한 단순 정확도(Accuracy)는 순서 정보와 예측 간의 차이를 평가하지 못하나, Quadratic Weighted Kappa(QWK)는 클래스 간의 순서를 고려하여 평가할 수 있습니다. Quadratic Weighted Kappa를 사용하여 평가하였습니다.
+
+Ordinal Classifier
+
+Fold1 <img width="100" alt="image" src="https://github.com/user-attachments/assets/309907fb-cd01-426c-b2bf-e0071717318e" />
+Fold2 <img width="100" alt="image" src="https://github.com/user-attachments/assets/d88b0326-bfa6-439a-8407-3d65a8a5ea9c" />
+Fold3 <img width="100" alt="image" src="https://github.com/user-attachments/assets/d9aeeeae-8965-4fee-8b32-eb2722b4afa7" />
+Fold4 <img width="100" alt="image" src="https://github.com/user-attachments/assets/3d4c7244-709b-4113-ac2d-1c858e87115f" />
+Fold5 <img width="100" alt="image" src="https://github.com/user-attachments/assets/e4c73acd-f410-473b-9198-6726c330bbdd" />
+
+Fold Mean QWK : 0.3858
+
+Simple Classifier
+
+Fold1 <img width="100" alt="image" src="https://github.com/user-attachments/assets/788e6ab7-8cf5-4067-8ed9-5c069834c0fa" />
+Fold2 <img width="100" alt="image" src="https://github.com/user-attachments/assets/4c97aa53-7a29-4c2a-9807-b73de602c5c9" />
+Fold3 <img width="100" alt="image" src="https://github.com/user-attachments/assets/3f86a380-60f4-4f13-9c00-2adf7d740ff9" />
+Fold4 <img width="100" alt="image" src="https://github.com/user-attachments/assets/66edf3fc-ce89-4365-a318-9b89562c7b44" />
+Fold5 <img width="100" alt="image" src="https://github.com/user-attachments/assets/7268232c-cb49-49c9-b4e1-a3517b2d4d7d" />
+
+Fold Mean QWK : 0.3181
+
+**Ordinal Classifier는 클래스 간의 순서 정보를 효과적으로 학습하고 이를 예측하는 데 강점을 보였습니다. 이를 확인하기 위해 Quadratic Weighted Kappa (QWK) 점수를 비교한 결과, Ordinal Classifier의 QWK 점수는 0.3858로, Simple Classifier의 QWK 점수인 0.31을 능가하였습니다. 이는 Ordinal Classifier가 클래스 간의 순서 관계를 더 잘 반영하여 예측의 품질을 향상시켰음을 보여줍니다.**
+
 ## Collaborating
 
 Contributions to the msordinal project are welcome via pull requests. Please open an issue to discuss your proposed contribution.
