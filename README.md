@@ -215,7 +215,7 @@ Fold5 <img width="100" alt="image" src="https://github.com/user-attachments/asse
 
 **Fold Mean QWK : 0.3181**
 
-**Ordinal Classifier는 클래스 간의 순서 정보를 효과적으로 학습하고 이를 예측하는 데 강점을 보였습니다. 이를 확인하기 위해 Quadratic Weighted Kappa (QWK) 점수를 비교한 결과, Ordinal Classifier의 QWK 점수는 0.3858로, Simple Classifier의 QWK 점수인 0.31을 능가하였습니다. 이는 Ordinal Classifier가 클래스 간의 순서 관계를 더 잘 반영하여 예측의 품질을 향상시켰음을 보여줍니다.**
+**Ordinal Classifier는 클래스 간의 순서 정보를 효과적으로 학습하고 이를 예측하는 데 강점을 보였습니다. 이를 확인하기 위해 Quadratic Weighted Kappa (QWK) 점수를 비교한 결과, Ordinal Classifier의 QWK 점수는 0.3858로, Simple Classifier의 QWK 점수인 0.3181을 능가하였습니다. 이는 Ordinal Classifier가 클래스 간의 순서 관계를 더 잘 반영하여 예측의 품질을 향상시켰음을 보여줍니다.**
 
 ## Collaborating
 
