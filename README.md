@@ -1,4 +1,4 @@
-# Welcome to psordinal 👋 (Paul77ms)
+# Welcome to psordinal 👋 (Paul77ms's Ordinal Classification Algorithm)
 
 ### **psordinal** is a Python library that integrates ordinal classification methodology papers.
 
